@@ -1,15 +1,18 @@
-#MTA
+# MTA
+
+fork from [https://github.com/Sunnyyoung/MTA.git](https://github.com/Sunnyyoung/MTA.git)
 
 An unofficial MTA SDK CocoaPods repository..
 
 Source website: [http://mta.qq.com/](http://mta.qq.com/)
 
-#Usage
+# 使用方法
 
-Edit your podfile: `pod 'MTA'`
+```Podfile
+source 'https://github.com/18plan/Specs.git'
 
-Read more usage: [http://imgcache.xg.qq.com/mta/document/iOS_quick_start.zip](http://imgcache.xg.qq.com/mta/document/iOS_quick_start.zip)
+pod 'MTA', '1.6.6'
+```
 
-#Release notes
-
-[http://mta.qq.com/mta/ctr_index/download](http://mta.qq.com/mta/ctr_index/download)
+# 更新办法
+pod repo push 18plan --use-libraries
