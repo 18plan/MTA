@@ -15,4 +15,6 @@ pod 'MTA', '1.6.6'
 ```
 
 # 更新办法
+```
 pod repo push 18plan --use-libraries
+```
